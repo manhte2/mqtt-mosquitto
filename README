@@ -1,4 +1,5 @@
 #created by https://github.com/sukesh-ak/setup-mosquitto-with-docker?tab=readme-ov-file
+apt  install docker-compose -y
 
 docker-compose -p mqtt5 up -d
 
